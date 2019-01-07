@@ -1,0 +1,20 @@
+.button {
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: $border-radius-base;
+  transition: .2s ease;
+  cursor: pointer;
+
+  &--primary {
+    color: $white;
+    background-color: $green;
+    &:hover,
+    &:focus {
+      background-color: $green-dark;
+    }
+  }
+
+  &--secondary {
+    background-color: $secondary;
+  }
+}

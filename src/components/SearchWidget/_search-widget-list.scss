@@ -1,0 +1,67 @@
+.location-results {
+  margin-top: -($margin-medium + 0.1);
+  border-bottom-left-radius: $border-radius-base;
+  border-bottom-right-radius: $border-radius-base;
+  background-color: $white;
+
+  &__type {
+    min-width: 4rem;
+  }
+
+  &__list {
+    padding: 0;
+    border-color: $gray-medium;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+  }
+
+  &__item {
+    list-style: none;
+    padding: $padding-small;
+    border-bottom: 1px solid #eaeaea;
+
+    &:hover {
+      background-color: #dff6ff;
+    }
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #222222;
+
+    @media only screen and (min-width: 480px) {
+      flex-direction: row;
+      text-align: left;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  &__details {
+    @media only screen and (min-width: 480px) {
+      width: 100%;
+      margin-left: $margin-base;
+    }
+  }
+
+  &__text {
+    color: $gray;
+    font-size: 0.85rem;
+    &--color {
+      color: $black;
+    }
+    .iata-name {
+      font-style: normal;
+    }
+  }
+}

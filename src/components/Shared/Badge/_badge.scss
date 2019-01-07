@@ -1,0 +1,33 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  padding: $padding-tiny;
+  border-radius: $padding-tiny;
+  font-size: 0.95rem;
+  color: $white;
+  background-color: #f2817f;
+
+  &--city {
+    background-color: #6eb8fa;
+  }
+
+  &--region {
+    background-color: #46d3bb;
+  }
+
+  &--airport {
+    background-color: #f2817f;
+  }
+
+  &--place {
+    background-color: #ffa981;
+  }
+
+  &--district {
+    background-color: #70d58e;
+  }
+
+  &--station {
+    background-color: #9d9dbb;
+  }
+}

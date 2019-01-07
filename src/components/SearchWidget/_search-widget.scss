@@ -1,0 +1,36 @@
+.search {
+  padding: $padding-medium;
+  margin-top: $margin-medium;
+  margin-bottom: $margin-medium;
+  background-color: $secondary;
+  border-bottom: 2px solid #dab129;
+  @media only screen and (min-width: 768px) {
+    width: 40%;
+  }
+
+  &-form__heading {
+    margin: 0;
+  }
+
+  &-fields {
+    display: flex;
+    flex-direction: column;
+    padding: $padding-base 0;
+    margin: 0;
+    border: 0;
+
+    &__label {
+      display: block;
+      color: $form-label-color;
+      padding-top: ($padding-tiny + $padding-small);
+      padding-bottom: ($padding-tiny + $padding-small);
+    }
+
+    &__input {
+      width: 100%;
+      padding: 0.65rem;
+      background-color: $gray-light;
+      border: 1px solid $gray-medium;
+    }
+  }
+}

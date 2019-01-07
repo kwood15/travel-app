@@ -1,0 +1,20 @@
+.header {
+  padding: $padding-base;
+  background-color: $primary;
+  border-bottom: 1px solid rgba($white, .1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  &__image {
+    $size: 3rem;
+    width: $size;
+    height: $size;
+    padding-right: $padding-small;
+  }
+  &__text {
+    color: $white;
+    font-size: 1.3rem;
+  }
+}

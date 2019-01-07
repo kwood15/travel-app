@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: $white;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  &:hover,
+  &:focus {
+    text-decoration: underline
+  }
+}
+
+p {
+  font-size: $font-size-base;
+  margin-top: $margin-tiny;
+  margin-bottom: $margin-tiny;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  color: $black;
+}
+
+h1 {
+  font-size: 1.75rem;
+  @media only screen and (min-width: 1024px) {
+    font-size: $font-size-large;
+  }
+}
+
+h2 {
+  font-size: $font-size-medium;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+input {
+  font-size: $font-size-small;
+  background: $white;
+}
