@@ -1,6 +1,6 @@
-# A travel application for search functionality
+# A travel application for search functionality [![Build Status](https://travis-ci.com/kwood15/travel-app.svg?token=fXozaMQozyzjz96fCGzT&branch=master)](https://travis-ci.com/kwood15/travel-app)
 
-> Built with React
+> Built with React and Express
 
 ## Get Started
 

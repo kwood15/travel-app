@@ -2,7 +2,7 @@
 /* eslint-disable func-names */
 export const debounce = (fn, delay) => {
   let timer = null;
-  return function (...args) {
+  return function(...args) {
     const context = this;
     timer && clearTimeout(timer);
     timer = setTimeout(() => {
